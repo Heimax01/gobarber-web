@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
     "@unform/core": "^2.1.0",
     "@unform/web": "^2.1.0",
     "axios": "^0.19.2",
+    "date-fns": "^2.14.0",
     "filesize": "^6.1.0",
     "history": "^4.10.1",
     "polished": "^3.5.2",
     "react": "^16.13.1",
+    "react-day-picker": "^7.4.8",
     "react-dom": "^16.13.1",
     "react-dropzone": "^10.2.2",
     "react-icons": "^3.10.0",
@@ -44,7 +47,6 @@
     ]
   },
   "devDependencies": {
-    "@types/yup": "^0.29.0",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/axios": "^0.14.0",
@@ -53,6 +55,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-router-dom": "^5.1.4",
     "@types/styled-components": "^5.1.0",
+    "@types/yup": "^0.29.0",
     "@typescript-eslint/eslint-plugin": "^2.28.0",
     "@typescript-eslint/parser": "^2.28.0",
     "axios-mock-adapter": "^1.18.1",
