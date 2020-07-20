@@ -34,7 +34,7 @@ export const Container = styled.div<ContainerProps>`
     props.isFocused &&
     css`
       color: #ff9000;
-      boder-color: #ff9000;
+      border-color: #ff9000;
     `}
 
   ${props =>

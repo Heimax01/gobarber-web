@@ -86,10 +86,6 @@ const Profile: React.FC = () => {
             : {}),
         };
 
-        const response = await api.put('/profile', formData);
-
-        updateUser(response.data);
-
         history.push('/dashboard');
 
         addToast({
